@@ -1,0 +1,282 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 54px;
+  color: #4a4f54;
+  font-weight: 200;
+
+}
+
+@media (min-width:992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: #343a40
+}
+
+#projectStyle {
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.20rem;
+  color: #4a4f54;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 25px;
+
+  color: #b47373;
+  /* color: #343a40; */
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #343a40
+    /* color: #4f4747; */
+}
+
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem
+}
+
+h2 {
+  font-size: 3.5rem
+}
+
+.subheading {
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.20rem;
+  color: #b47373;
+}
+
+.subheadingRuppinNDb {
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.20rem;
+  color: #4a4f54;
+}
+
+.list-social-icons a {
+  color: #b47373
+}
+
+.list-social-icons a:hover {
+  color: #d88787
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem
+}
+
+.list-icons {
+  font-size: 3rem
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #b47373
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 300;
+  text-transform: uppercase;
+
+}
+
+@media (min-width:992px) {
+  #sideNav {
+
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh
+  }
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem
+  }
+
+  /* #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+ 
+  } */
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block
+  }
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none
+}
+
+@media (min-width:768px) {
+  section.resume-section {
+    min-height: 100vh
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem
+  }
+}
+
+@media (min-width:992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important
+  }
+}
+
+.bg-primary {
+  background-color: #b47373 !important;
+  /* border-radius: 20px 100px 20px 100px; */
+
+}
+
+.text-primary {
+  color: #b47373 !important
+}
+
+.text-primary2 {
+  color: #5d5755 !important
+}
+
+a {
+  color: #5d5755
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #824027
+}
+
+.btn {
+  background-color: rgb(115, 130, 130) !important;
+  ;
+  border: none;
+  color: white;
+  padding: 9px 9px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 30px 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 5px 15px 0 #8b8b8b;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  height: 100%;
+  min-height: 50px;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+}
+
+.imgSize .cardImg {
+  height: 150px;
+}
+
+.card .btns {
+  justify-content: flex-end;
+  display: flex;
+  align-self: center;
+
+}
+.leng {
+  display: block;        /* מציב את ה-div כבלוק כך שיהיה לו מקום מעל העיגול */
+  margin-bottom: 10px;    /* מרווח בין הטקסט לאייקון */
+  text-align: center;     /* מרכז את הטקסט */
+}
